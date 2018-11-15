@@ -1,0 +1,7 @@
+{
+  "name": "airgap-check",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
