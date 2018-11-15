@@ -37,6 +37,7 @@
     "cordova-plugin-whitelist": "1.3.3",
     "core-js": "^2.5.3",
     "rxjs": "6.2.2",
+    "typestrict": "^1.0.1",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
