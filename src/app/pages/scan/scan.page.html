@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar><ion-title>Scan</ion-title></ion-toolbar>
+</ion-header>
+
+<ion-content no-bounce class="transparent-bg">
+  <zxing-scanner
+    [hidden]="!isBrowser"
+    #scanner
+    [device]="selectedDevice"
+    [scannerEnabled]="scannerEnabled"
+    (scanSuccess)="displayContents($event)"
+  ></zxing-scanner>
+</ion-content>

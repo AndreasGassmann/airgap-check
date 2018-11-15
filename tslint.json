@@ -1,4 +1,4 @@
 {
   "extends": "typestrict",
-  "rulesDirectory": ["tslint-config-prettier, node_modules/codelyzer"]
+  "rulesDirectory": ["tslint-config-prettier"]
 }

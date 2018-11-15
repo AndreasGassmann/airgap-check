@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router'
 
 import { TabsPage } from './tabs.page'
 import { HomePage } from '../home/home.page'
-import { AboutPage } from '../about/about.page'
+import { ScanPage } from '../scan/scan.page'
 import { ContactPage } from '../contact/contact.page'
 
 const routes: Routes = [
@@ -24,7 +24,7 @@ const routes: Routes = [
       {
         path: 'about',
         outlet: 'about',
-        component: AboutPage
+        component: ScanPage
       },
       {
         path: 'contact',

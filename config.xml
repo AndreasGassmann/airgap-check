@@ -84,4 +84,5 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-plugin-airgap-webview" spec="git+https://github.com/airgap-it/cordova-plugin-airgap-webview.git" />
+    <plugin name="cordova-clipboard" spec="^1.2.1" />
 </widget>

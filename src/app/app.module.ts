@@ -11,6 +11,8 @@ import { ZXingScannerModule } from '@zxing/ngx-scanner'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 
+import { SchemeRoutingService } from './services/scheme-routing'
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -23,7 +25,8 @@ import { AppComponent } from './app.component'
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    SchemeRoutingService
   ],
   bootstrap: [AppComponent]
 })
